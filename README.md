@@ -30,14 +30,14 @@ The `main.py` script serves as the unified entry point and will sequentially exe
 
 ## Configuration Files
 
-* Configuration files in the `config/` directory **must be prepared by the user**
+* Configuration files in the `config_yml/` directory **must be prepared by the user**
 * These files typically define paths, parameters, and model settings
 * Please adjust the configuration according to your local environment and research needs
 
 ## Data Availability
 
 * Data files under the `database/` directory are **not included in this repository**
-* To obtain the required datasets, please **contact the author (Yao)**
+* To obtain the required datasets, please **contact the author**
 * Once obtained, place the data in the corresponding `database/bigdata/` or `database/data/` directories
 
 ## Contact
