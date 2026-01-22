@@ -15,30 +15,6 @@ This project is designed for macroeconomic modelling and empirical analysis. It 
 ├── results/             # Output results (figures, tables, logs, etc.)
 ├── README.md            # Project documentation
 └── .gitignore           # Git ignore rules
-```
-
-好的，下面是**英文版 README.md（Markdown 格式）**，内容简洁、正式，适合学术项目或内部合作使用。你可以直接复制保存为 `README.md`。
-
----
-
-````markdown
-# Macroeconomic Modelling Project
-
-This project is designed for macroeconomic modelling and empirical analysis. It provides a complete workflow including data processing, model construction, and result generation.
-
-## Directory Structure
-
-```text
-.
-├── main.py              # Main entry script to run the entire pipeline
-├── config/              # Configuration files (to be prepared by the user)
-├── database/            # Data directory (not tracked by Git)
-│   ├── bigdata/         # Raw or large-scale datasets
-│   └── data/            # Processed or intermediate datasets
-├── src/                 # Core source code (models, functions, utilities)
-├── results/             # Output results (figures, tables, logs, etc.)
-├── README.md            # Project documentation
-└── .gitignore           # Git ignore rules
 ````
 
 ## How to Run
