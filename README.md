@@ -7,11 +7,12 @@ This project is designed for macroeconomic modelling and empirical analysis. It 
 ```text
 .
 ├── main.py              # Main entry script to run the entire pipeline
-├── config/              # Configuration files (to be prepared by the user)
+├── config_yml/              # Configuration files (to be prepared by the user)
 ├── database/            # Data directory (not tracked by Git)
 │   ├── bigdata/         # Raw or large-scale datasets
 │   └── data/            # Processed or intermediate datasets
-├── src/                 # Core source code (models, functions, utilities)
+├── models/              # Core source code (models, functions, utilities)
+├── application/         # visualization, postprocess
 ├── output/              # Output results (figures, tables, logs, etc.)
 ├── README.md            # Project documentation
 └── .gitignore           # Git ignore rules
@@ -19,7 +20,7 @@ This project is designed for macroeconomic modelling and empirical analysis. It 
 
 ## How to Run
 
-After setting up the environment and preparing the required data, run the entire project with:
+After setting up the environment (requirement.txt) and preparing the required data, run the entire project with:
 
 ```bash
 python main.py
