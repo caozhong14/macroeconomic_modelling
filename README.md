@@ -12,7 +12,7 @@ This project is designed for macroeconomic modelling and empirical analysis. It 
 │   ├── bigdata/         # Raw or large-scale datasets
 │   └── data/            # Processed or intermediate datasets
 ├── src/                 # Core source code (models, functions, utilities)
-├── results/             # Output results (figures, tables, logs, etc.)
+├── output/              # Output results (figures, tables, logs, etc.)
 ├── README.md            # Project documentation
 └── .gitignore           # Git ignore rules
 ````
