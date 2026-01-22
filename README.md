@@ -1,5 +1,74 @@
-# macroeconomic_modelling
+# Macroeconomic Modelling Project
 
-The code is used to estimate the macroeconomic burden of disease by quantifying the broader economic impacts of illness on population health, labor supply, and productivity, and translating these impacts into aggregate economic outcomes (e.g., losses in GDP or economic growth).
+This project is designed for macroeconomic modelling and empirical analysis. It provides a complete workflow including data processing, model construction, and result generation.
 
-The code is currently being organized and prepared for public release. If necessary, please contact zhong.cao@uni-heidelberg.de, and we will provide detailed information of how the code is written and implemented.
+## Directory Structure
+
+```text
+.
+├── main.py              # Main entry script to run the entire pipeline
+├── config/              # Configuration files (to be prepared by the user)
+├── database/            # Data directory (not tracked by Git)
+│   ├── bigdata/         # Raw or large-scale datasets
+│   └── data/            # Processed or intermediate datasets
+├── src/                 # Core source code (models, functions, utilities)
+├── results/             # Output results (figures, tables, logs, etc.)
+├── README.md            # Project documentation
+└── .gitignore           # Git ignore rules
+```
+
+好的，下面是**英文版 README.md（Markdown 格式）**，内容简洁、正式，适合学术项目或内部合作使用。你可以直接复制保存为 `README.md`。
+
+---
+
+````markdown
+# Macroeconomic Modelling Project
+
+This project is designed for macroeconomic modelling and empirical analysis. It provides a complete workflow including data processing, model construction, and result generation.
+
+## Directory Structure
+
+```text
+.
+├── main.py              # Main entry script to run the entire pipeline
+├── config/              # Configuration files (to be prepared by the user)
+├── database/            # Data directory (not tracked by Git)
+│   ├── bigdata/         # Raw or large-scale datasets
+│   └── data/            # Processed or intermediate datasets
+├── src/                 # Core source code (models, functions, utilities)
+├── results/             # Output results (figures, tables, logs, etc.)
+├── README.md            # Project documentation
+└── .gitignore           # Git ignore rules
+````
+
+## How to Run
+
+After setting up the environment and preparing the required data, run the entire project with:
+
+```bash
+python main.py
+```
+
+The `main.py` script serves as the unified entry point and will sequentially execute all steps of the analysis.
+
+## Configuration Files
+
+* Configuration files in the `config/` directory **must be prepared by the user**
+* These files typically define paths, parameters, and model settings
+* Please adjust the configuration according to your local environment and research needs
+
+## Data Availability
+
+* Data files under the `database/` directory are **not included in this repository**
+* To obtain the required datasets, please **contact the author (Yao)**
+* Once obtained, place the data in the corresponding `database/bigdata/` or `database/data/` directories
+
+## Contact
+
+For questions, data access, or collaboration, please contact **Zhong Cao**.
+
+```
+Zhong Cao
+Heidelberg University
+zhong.cao@uni-heidelberg.de
+```
