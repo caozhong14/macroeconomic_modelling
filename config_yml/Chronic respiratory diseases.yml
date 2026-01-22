@@ -1,0 +1,44 @@
+data_layer:
+  startyear : 2024
+  projectStartYear : 2025
+  endyear : 2050
+  CapitalShare : 0.33
+  default_codebook : "./database/gbd_codebook.xlsx"
+  weight : "./database/data/{your_data}.xlsx"
+  alph : "./database/data/{your_data}.csv"
+  tc_fraction : "./database/data/{your_data}.csv"
+  physical_ppp : "./database/data/{your_data}.csv"
+  gdp : "./database/data/{your_data}.csv"
+  hepc : "./database/data/{your_data}.csv"
+  savings : "./database/data/{your_data}.csv"
+  population : "./database/data/{your_data}.csv"
+  labor : "./database/data/{your_data}.csv"
+  education : "./database/data/{your_data}.csv"
+  has_required_data : True 
+  morbid_DW_cal: False 
+  missing_data_summary_columns:
+  - country_code
+  - InitialCapitalStock
+  - GDP
+  - HealthExpenditure
+  - SavingRate
+  - Deaths
+  - Morbidity
+algorithm_layer:
+  exp1mode: 'health'
+  exp2mode: 'params'
+  exp3mode: 'health'
+  exp4mode: 'health'
+  exp2mode_tc_perturb: False
+  n_runs : 1000
+  json_dir : "./database/json_output/"
+  output_folder : 'output/'
+  n_jobs : -1
+  cd: 0.05 
+  ds: 0.03 
+  eta1: 0.091 
+  eta2: 0.1301 
+  eta3: -0.0023 
+  rho1: 1 
+  rho2: 1  
+  pc: 1 
