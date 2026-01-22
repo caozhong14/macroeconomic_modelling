@@ -1,0 +1,8 @@
+# database data folders
+database/bigdata/
+database/data/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
